@@ -11,7 +11,7 @@ if exists("b:current_syntax")
 endif
 
 
-etlocal iskeyword+=@-@
+setlocal iskeyword+=@-@
 
 syn keyword pbfKeyword @pbf @env @pgm @src @dir @lopt @llib @prm @plib @option @subshell @cppopt @use @lib @aopt @mod @ipath
 syn match pbfKeywordEnd "\<@end\s*pbf"
